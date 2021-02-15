@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<labels x="736" y="36" width="45" height="21" border="true">
+<text>{1L}</text>
+</labels>
+<labels x="616" y="36" width="45" height="21" border="true">
+<text>{1R}</text>
+</labels>
+<labels x="901" y="36" width="45" height="21" border="true">
+<text>{2L}</text>
+</labels>
+<labels x="135" y="44" width="60" height="22" border="true">
+<text>{2R,3S}</text>
+</labels>
+<labels x="436" y="36" width="60" height="21" border="true">
+<text>{3SL,3L}</text>
+</labels>
+<place id="G">
+<graphics>
+<position x="138.75" y="107.5"/>
+</graphics>
+<name>
+<value>G</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G2">
+<graphics>
+<position x="450.0" y="105.0"/>
+</graphics>
+<name>
+<value>G2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G3">
+<graphics>
+<position x="900.0" y="105.0"/>
+</graphics>
+<name>
+<value>G3</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G4">
+<graphics>
+<position x="615.0" y="105.0"/>
+</graphics>
+<name>
+<value>G4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="G5">
+<graphics>
+<position x="735.0" y="105.0"/>
+</graphics>
+<name>
+<value>G5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="GY">
+<graphics>
+<position x="138.75" y="212.5"/>
+</graphics>
+<name>
+<value>GY</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="GY2">
+<graphics>
+<position x="450.0" y="210.0"/>
+</graphics>
+<name>
+<value>GY2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="GY3">
+<graphics>
+<position x="900.0" y="225.0"/>
+</graphics>
+<name>
+<value>GY3</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="GY4">
+<graphics>
+<position x="615.0" y="210.0"/>
+</graphics>
+<name>
+<value>GY4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="GY5">
+<graphics>
+<position x="735.0" y="210.0"/>
+</graphics>
+<name>
+<value>GY5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="R">
+<graphics>
+<position x="138.75" y="332.5"/>
+</graphics>
+<name>
+<value>R</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="R2">
+<graphics>
+<position x="450.0" y="330.0"/>
+</graphics>
+<name>
+<value>R2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="R3">
+<graphics>
+<position x="900.0" y="330.0"/>
+</graphics>
+<name>
+<value>R3</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="R4">
+<graphics>
+<position x="615.0" y="330.0"/>
+</graphics>
+<name>
+<value>R4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="R5">
+<graphics>
+<position x="735.0" y="330.0"/>
+</graphics>
+<name>
+<value>R5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="RY">
+<graphics>
+<position x="138.75" y="467.5"/>
+</graphics>
+<name>
+<value>RY</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="RY2">
+<graphics>
+<position x="450.0" y="465.0"/>
+</graphics>
+<name>
+<value>RY2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="RY3">
+<graphics>
+<position x="900.0" y="465.0"/>
+</graphics>
+<name>
+<value>RY3</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="RY4">
+<graphics>
+<position x="615.0" y="465.0"/>
+</graphics>
+<name>
+<value>RY4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="RY5">
+<graphics>
+<position x="735.0" y="465.0"/>
+</graphics>
+<name>
+<value>RY5</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="T0">
+<graphics>
+<position x="675.0" y="390.0"/>
+</graphics>
+<name>
+<value>T0</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T1">
+<graphics>
+<position x="540.0" y="540.0"/>
+</graphics>
+<name>
+<value>T1</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T2">
+<graphics>
+<position x="840.0" y="285.0"/>
+</graphics>
+<name>
+<value>T2</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T3">
+<graphics>
+<position x="900.0" y="540.0"/>
+</graphics>
+<name>
+<value>T3</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T4">
+<graphics>
+<position x="450.0" y="405.0"/>
+</graphics>
+<name>
+<value>T4</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="T5">
+<graphics>
+<position x="690.0" y="705.0"/>
+</graphics>
+<name>
+<value>T5</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="G2 to T0" source="G2" target="T0">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="476" y="116" curvePoint="false"/>
+<arcpath id="001" x="521" y="116" curvePoint="false"/>
+<arcpath id="002" x="521" y="386" curvePoint="false"/>
+<arcpath id="003" x="670" y="401" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="G2 to T2" source="G2" target="T2">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="473" y="122" curvePoint="false"/>
+<arcpath id="001" x="846" y="295" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="G2 to T3" source="G2" target="T3">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="471" y="126" curvePoint="false"/>
+<arcpath id="001" x="907" y="545" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="G3 to T1" source="G3" target="T1">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="896" y="112" curvePoint="false"/>
+<arcpath id="001" x="746" y="86" curvePoint="false"/>
+<arcpath id="002" x="806" y="86" curvePoint="false"/>
+<arcpath id="003" x="806" y="521" curvePoint="false"/>
+<arcpath id="004" x="386" y="521" curvePoint="false"/>
+<arcpath id="005" x="386" y="461" curvePoint="false"/>
+<arcpath id="006" x="535" y="551" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="G3 to T4" source="G3" target="T4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="896" y="112" curvePoint="false"/>
+<arcpath id="001" x="731" y="71" curvePoint="false"/>
+<arcpath id="002" x="731" y="56" curvePoint="false"/>
+<arcpath id="003" x="731" y="41" curvePoint="false"/>
+<arcpath id="004" x="281" y="41" curvePoint="false"/>
+<arcpath id="005" x="281" y="326" curvePoint="false"/>
+<arcpath id="006" x="456" y="413" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="G4 to T4" source="G4" target="T4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="611" y="113" curvePoint="false"/>
+<arcpath id="001" x="476" y="101" curvePoint="false"/>
+<arcpath id="002" x="476" y="56" curvePoint="false"/>
+<arcpath id="003" x="326" y="56" curvePoint="false"/>
+<arcpath id="004" x="326" y="311" curvePoint="false"/>
+<arcpath id="005" x="456" y="407" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="G5 to T2" source="G5" target="T2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="731" y="116" curvePoint="false"/>
+<arcpath id="001" x="596" y="116" curvePoint="false"/>
+<arcpath id="002" x="686" y="116" curvePoint="false"/>
+<arcpath id="003" x="846" y="287" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="G5 to T4" source="G5" target="T4">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="735" y="126" curvePoint="false"/>
+<arcpath id="001" x="466" y="411" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="GY2 to T1" source="GY2" target="T1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="446" y="221" curvePoint="false"/>
+<arcpath id="001" x="371" y="221" curvePoint="false"/>
+<arcpath id="002" x="371" y="566" curvePoint="false"/>
+<arcpath id="003" x="535" y="551" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="GY2 to T2" source="GY2" target="T2">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="475" y="223" curvePoint="false"/>
+<arcpath id="001" x="845" y="307" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="GY2 to T3" source="GY2" target="T3">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="472" y="230" curvePoint="false"/>
+<arcpath id="001" x="902" y="545" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="GY3 to T1" source="GY3" target="T1">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="926" y="236" curvePoint="false"/>
+<arcpath id="001" x="971" y="236" curvePoint="false"/>
+<arcpath id="002" x="971" y="626" curvePoint="false"/>
+<arcpath id="003" x="521" y="626" curvePoint="false"/>
+<arcpath id="004" x="541" y="555" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="GY3 to T5" source="GY3" target="T5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="897" y="227" curvePoint="false"/>
+<arcpath id="001" x="836" y="191" curvePoint="false"/>
+<arcpath id="002" x="836" y="551" curvePoint="false"/>
+<arcpath id="003" x="581" y="551" curvePoint="false"/>
+<arcpath id="004" x="566" y="551" curvePoint="false"/>
+<arcpath id="005" x="696" y="707" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="GY4 to T5" source="GY4" target="T5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="611" y="217" curvePoint="false"/>
+<arcpath id="001" x="491" y="191" curvePoint="false"/>
+<arcpath id="002" x="461" y="206" curvePoint="false"/>
+<arcpath id="003" x="446" y="206" curvePoint="false"/>
+<arcpath id="004" x="446" y="416" curvePoint="false"/>
+<arcpath id="005" x="341" y="416" curvePoint="false"/>
+<arcpath id="006" x="341" y="581" curvePoint="false"/>
+<arcpath id="007" x="695" y="723" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="GY5 to T3" source="GY5" target="T3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="752" y="233" curvePoint="false"/>
+<arcpath id="001" x="915" y="546" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="GY5 to T4" source="GY5" target="T4">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="733" y="228" curvePoint="false"/>
+<arcpath id="001" x="465" y="421" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="R2 to T4" source="R2" target="T4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="461" y="355" curvePoint="false"/>
+<arcpath id="001" x="461" y="401" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="R3 to T2" source="R3" target="T2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="897" y="333" curvePoint="false"/>
+<arcpath id="001" x="716" y="236" curvePoint="false"/>
+<arcpath id="002" x="845" y="298" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="R4 to T0" source="R4" target="T0">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="636" y="351" curvePoint="false"/>
+<arcpath id="001" x="680" y="395" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="R5 to T0" source="R5" target="T0">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="735" y="351" curvePoint="false"/>
+<arcpath id="001" x="690" y="396" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="RY2 to T5" source="RY2" target="T5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="448" y="485" curvePoint="false"/>
+<arcpath id="001" x="371" y="551" curvePoint="false"/>
+<arcpath id="002" x="551" y="551" curvePoint="false"/>
+<arcpath id="003" x="696" y="711" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="RY3 to T3" source="RY3" target="T3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="912" y="490" curvePoint="false"/>
+<arcpath id="001" x="918" y="546" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="RY4 to T1" source="RY4" target="T1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="626" y="491" curvePoint="false"/>
+<arcpath id="001" x="626" y="551" curvePoint="false"/>
+<arcpath id="002" x="565" y="551" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="RY5 to T1" source="RY5" target="T1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="746" y="491" curvePoint="false"/>
+<arcpath id="001" x="746" y="581" curvePoint="false"/>
+<arcpath id="002" x="566" y="581" curvePoint="false"/>
+<arcpath id="003" x="558" y="556" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T0 to GY2" source="T0" target="GY2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="670" y="401" curvePoint="false"/>
+<arcpath id="001" x="506" y="401" curvePoint="false"/>
+<arcpath id="002" x="506" y="221" curvePoint="false"/>
+<arcpath id="003" x="476" y="221" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T0 to RY4" source="T0" target="RY4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="680" y="405" curvePoint="false"/>
+<arcpath id="001" x="635" y="463" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T0 to RY5" source="T0" target="RY5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="690" y="406" curvePoint="false"/>
+<arcpath id="001" x="736" y="463" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to G4" source="T1" target="G4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="547" y="555" curvePoint="false"/>
+<arcpath id="001" x="536" y="611" curvePoint="false"/>
+<arcpath id="002" x="821" y="611" curvePoint="false"/>
+<arcpath id="003" x="821" y="71" curvePoint="false"/>
+<arcpath id="004" x="626" y="71" curvePoint="false"/>
+<arcpath id="005" x="626" y="101" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to G5" source="T1" target="G5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="553" y="556" curvePoint="false"/>
+<arcpath id="001" x="551" y="596" curvePoint="false"/>
+<arcpath id="002" x="806" y="596" curvePoint="false"/>
+<arcpath id="003" x="806" y="116" curvePoint="false"/>
+<arcpath id="004" x="761" y="116" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T1 to R2" source="T1" target="R2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="535" y="551" curvePoint="false"/>
+<arcpath id="001" x="386" y="551" curvePoint="false"/>
+<arcpath id="002" x="386" y="356" curvePoint="false"/>
+<arcpath id="003" x="446" y="343" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T2 to GY5" source="T2" target="GY5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="846" y="291" curvePoint="false"/>
+<arcpath id="001" x="757" y="228" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T2 to RY3" source="T2" target="RY3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="845" y="303" curvePoint="false"/>
+<arcpath id="001" x="686" y="236" curvePoint="false"/>
+<arcpath id="002" x="686" y="251" curvePoint="false"/>
+<arcpath id="003" x="900" y="465" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T3 to G3" source="T3" target="G3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="898" y="545" curvePoint="false"/>
+<arcpath id="001" x="761" y="446" curvePoint="false"/>
+<arcpath id="002" x="761" y="101" curvePoint="false"/>
+<arcpath id="003" x="896" y="113" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T3 to R5" source="T3" target="R5">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="911" y="546" curvePoint="false"/>
+<arcpath id="001" x="755" y="352" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T4 to GY3" source="T4" target="GY3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="455" y="425" curvePoint="false"/>
+<arcpath id="001" x="281" y="371" curvePoint="false"/>
+<arcpath id="002" x="281" y="536" curvePoint="false"/>
+<arcpath id="003" x="821" y="536" curvePoint="false"/>
+<arcpath id="004" x="821" y="176" curvePoint="false"/>
+<arcpath id="005" x="898" y="227" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T4 to GY4" source="T4" target="GY4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="455" y="418" curvePoint="false"/>
+<arcpath id="001" x="266" y="341" curvePoint="false"/>
+<arcpath id="002" x="266" y="146" curvePoint="false"/>
+<arcpath id="003" x="446" y="146" curvePoint="false"/>
+<arcpath id="004" x="611" y="215" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T4 to RY2" source="T4" target="RY2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="461" y="431" curvePoint="false"/>
+<arcpath id="001" x="461" y="461" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T5 to G2" source="T5" target="G2">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="696" y="715" curvePoint="false"/>
+<arcpath id="001" x="536" y="566" curvePoint="false"/>
+<arcpath id="002" x="251" y="566" curvePoint="false"/>
+<arcpath id="003" x="251" y="86" curvePoint="false"/>
+<arcpath id="004" x="446" y="113" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T5 to R3" source="T5" target="R3">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="705" y="716" curvePoint="false"/>
+<arcpath id="001" x="851" y="566" curvePoint="false"/>
+<arcpath id="002" x="851" y="266" curvePoint="false"/>
+<arcpath id="003" x="901" y="328" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T5 to R4" source="T5" target="R4">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="695" y="718" curvePoint="false"/>
+<arcpath id="001" x="536" y="581" curvePoint="false"/>
+<arcpath id="002" x="536" y="581" curvePoint="false"/>
+<arcpath id="003" x="536" y="596" curvePoint="false"/>
+<arcpath id="004" x="326" y="596" curvePoint="false"/>
+<arcpath id="005" x="326" y="401" curvePoint="false"/>
+<arcpath id="006" x="431" y="401" curvePoint="false"/>
+<arcpath id="007" x="431" y="341" curvePoint="false"/>
+<arcpath id="008" x="611" y="341" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
