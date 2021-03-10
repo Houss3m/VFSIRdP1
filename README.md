@@ -6,8 +6,8 @@ Proposer un réseau de Pétri classique modélisant le comportement du système 
 l’intersection présentée dans la figure Road.png . Pour cela :
 1. Afin de maximiser le flux de trafic routier, proposer une classification pour diviser les lignes 
 des différentes voies en groupes tel que :
-• Les voies d’un groupe peuvent avoir un feu vert au même temps,
-• Deux voies de deux groupes différents ne peuvent pas avoir un feu vert au même temps,
+* Les voies d’un groupe peuvent avoir un feu vert au même temps,
+* Deux voies de deux groupes différents ne peuvent pas avoir un feu vert au même temps,
 2. Selon le nombre de groupes obtenus, définir les changements entre les différents états 
 (diagramme de transitions des états) des différents groupes du système de feux tricolores. 
 Le changement des états d’un groupe doit être comme suit : 𝑅 → 𝑅𝑌 → 𝐺 → 𝐺𝑌 → 𝑅 → ⋯
